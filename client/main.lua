@@ -717,7 +717,7 @@ end)
 Citizen.CreateThread(function()
 	while true do
 		if CurrentSubtitle ~= nil then
-			Draw2DTextCenter(0.5, 0.88, CurrentSubtitle, 0.7)
+			Draw2DTextCenter(0.5, 0.95, CurrentSubtitle, 0.5)
 		end
 		Wait(1)
 	end
